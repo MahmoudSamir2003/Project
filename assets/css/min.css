@@ -74,7 +74,7 @@ flex-wrap: wrap !important;
   }
 
   .card{
-  /* width:18% !important; */
+ 
   padding: 3px;
   margin: 10px;
   flex-wrap: wrap ;
@@ -222,79 +222,61 @@ text-align: center;
   .five-class{
 display: flex;
 flex-direction: row;
-
-
+justify-content: center;
   }
-  .img-1 {
-     display: flex;
-     flex-direction: row;
-     justify-content: left;
-        background-image: url("../images/b17.jpg");
-    width: 40%;
-    height: 50vh;
-    margin: 3%;
-  }
-  .one-img {
- padding: 6%;
- color: white;
-  }
-  .one-img button{
-     background-color: unset;
-  
-   
-  }
-  .one-img a{
-   color: white;
-   text-decoration: none;
-  }
-
-.img-2{
-   display: flex;
-   flex-direction: row;
-   justify-content: left;
-      background-image: url("../images/b10.jpg");
-  width: 40%;
-  height: 50vh;
-  margin: 3%;
-  justify-content: left;
-  padding: 4%;
-  color: white;
+  .img{
+ display: flex;
+ margin: 5%;
  
 
-}
-.one-img-2 button{
-background-color: transparent;
-text-align: center;
+  }
+  .src-img{
+     display: flex;
+     /* padding: 15px;
+     margin: 15px; */
+     width: 100%;
+    
 
+  }
+  .title-2{
+   margin:16px;
+   position: absolute;
+   color: white;
+   padding: 20px;
 }
-
-.one-img-2 a{
-   text-decoration: transparent;
-    color: white;
+.title-2 p {
+   font-size: x-large;
 }
-.img-3{
-   background-image: url("../images/b7.jpg");
-   width: 29%;
-   height:35vh;
-   display: flex;
-   justify-content: left;
-   text-align: center;
-   padding: 4%;
-   margin:2%;
-}
-.one-img-3 h4{
+.title-2 button{
+background-color: initial;
+border-color: white !important;
+border: ridge;
 color: white;
 }
-   .one-img-3 h5{
-      color: red;
+  .img2{
+     display: flex;
+     margin: 5%;
+  }
+.src-img2{
+      padding: 5px;
+      width:auto;
+      height: 30%;
+ display: flex;
+     margin: 3px;
+     justify-content: center;
    }
-   .img-4{
-       background-image: url("../images/b4.jpg"); 
+   .img-top{
       display: flex;
-      justify-content:left ;
-      width:45% ;
-      height: 50vh;
+      justify-content:space-evenly;
+      margin: 5px;
+      padding: 2.5px;
+   
    }
-
-
+   .img4{
+   display: flex;
+   justify-content: space-evenly;
+   margin: 2px;
+   padding: 1px;
+   }
+    
 
